@@ -1,0 +1,37 @@
+<div class="h-full bg-gray-700">
+    <div class="min-h-screen chat flex flex-col-reverse">
+        <div #scrollable class="inner-chat">
+            <div class="chat-card">
+                <div class="h-full min-h-screen">
+
+                </div>
+                <div *ngFor="let m of messages">
+                    <div *ngIf="m.owner==true; else receiver" class="chat-msg-wrap sender">
+                        <div class="chat-msg">
+                            <p style="margin-bottom: 0;">{{m.text}}</p>
+                            <p *ngIf="toggleEncryption" class="bg-slate-400/25 rounded-md pl-1 pr-1" style="margin-bottom: 0;">{{m.crypto}}</p>
+                        </div>
+                    </div>
+                    <ng-template #receiver>
+                        <div class="chat-msg-wrap receiver">
+                            <div class="chat-msg">
+                                <p class="text-sm bg-lime-600/25 rounded-sm pl-1 pr-1">{{m.senderName}}</p>
+                                <p style="margin-bottom: 0;">{{m.text}}</p>
+                                <p *ngIf="toggleEncryption" class="bg-lime-800/50 rounded-md pl-1 pr-1" style="margin-bottom: 0;">{{m.crypto}}</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                </div>
+                <div>
+                    <div class="input-poruke flex flex-row">
+                        <input type="text" class="w-full" placeholder="Poruka" (keydown.enter)="sendMessage()" [(ngModel)]="messageText">
+                        <button class="bg-green-500 mr-1 ml-2" type="reset" (click)="sendMessage()">
+                            Pošalji
+                        </button>
+                        <button class="bg-orange-500 ml-1 rounded-md" (click)="toggleEncryption = !toggleEncryption">Enkriptovan tekst</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

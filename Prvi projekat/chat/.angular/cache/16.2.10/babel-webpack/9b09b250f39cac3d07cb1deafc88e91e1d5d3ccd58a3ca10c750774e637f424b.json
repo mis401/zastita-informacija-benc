@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const initialUserState = {\n  username: null,\n  id: null\n};","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

@@ -9,6 +9,14 @@
                     <div *ngIf="m.owner==true; else receiver" class="chat-msg-wrap sender">
                         <div class="chat-msg">
                             <p style="margin-bottom: 0;">{{m.text}}</p>
+                            <div *ngIf="m.file">
+                                <div *ngIf="m.text!.includes('image'); else file">
+                                    <img [src]="m.crypto" alt="Slika" class="w-1/2">
+                                </div>
+                                <ng-template #file>
+                                    <a [href]="m.crypto" download="file" class="text-blue-500 hover:text-blue-800">File</a>
+                                </ng-template>
+                            </div>
                             <p *ngIf="toggleEncryption" class="bg-slate-400/25 rounded-md pl-1 pr-1" style="margin-bottom: 0;">{{m.crypto}}</p>
                         </div>
                     </div>
@@ -17,6 +25,14 @@
                             <div class="chat-msg">
                                 <p class="text-sm bg-lime-600/25 rounded-sm pl-1 pr-1">{{m.senderName}}</p>
                                 <p style="margin-bottom: 0;">{{m.text}}</p>
+                                <div *ngIf="m.file">
+                                    <div *ngIf="m.text!.includes('image'); else file">
+                                        <img [src]="m.crypto" alt="Slika" class="w-1/2">
+                                    </div>
+                                    <ng-template #file>
+                                        <a [href]="m.crypto" download="file" class="text-blue-500 hover:text-blue-800">File</a>
+                                    </ng-template>
+                                </div>
                                 <p *ngIf="toggleEncryption" class="bg-lime-800/50 rounded-md pl-1 pr-1" style="margin-bottom: 0;">{{m.crypto}}</p>
                             </div>
                         </div>
@@ -28,6 +44,7 @@
                         <button class="bg-green-500 mr-1 ml-2" type="reset" (click)="sendMessage()">
                             Pošalji
                         </button>
+                        <input type="file" (change)="onFileSelected($event)" #fileInput>
                         <button class="bg-orange-500 ml-1 rounded-md" (click)="toggleEncryption = !toggleEncryption">Enkriptovan tekst</button>
                         <button class="bg-red-500 ml-1 rounded-md" (click)="switchEncryption()">{{encryptionType}}</button>
                     </div>

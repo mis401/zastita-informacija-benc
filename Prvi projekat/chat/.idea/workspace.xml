@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="790636a9-196b-4a88-b7c7-a3e81a7b0574" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/12926cc5461853168036bdf04ed4c50fe4a8d694/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/chat/chat.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/chat/chat.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/chat/chat.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/chat/chat.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/message.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/message.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/app.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/app.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/chat/chat.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/chat/chat.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/chat/chat.gateway.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/chat/chat.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/chat/chat.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/chat/chat.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/src/models/message.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/test/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest2/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2appXyiQiPOszKzHUOl7PwPz9y5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="790636a9-196b-4a88-b7c7-a3e81a7b0574" name="Changes" comment="" />
+      <created>1705025418781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705025418781</updated>
+    </task>
+    <servers />
+  </component>
+</project>
